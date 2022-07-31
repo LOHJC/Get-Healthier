@@ -1,6 +1,6 @@
 # Workout Planner 
 - chest/shoulder/back
-- core/biceps/triceps
+- core/arms
 - legs
 
 # Chest 
