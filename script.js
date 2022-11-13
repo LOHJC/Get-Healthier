@@ -105,10 +105,16 @@ function generalWorkout()
 	body_parts_dropdown.appendChild(new Option("Arms","arms"));
 	body_parts_dropdown.appendChild(new Option("Legs","legs"));
 	
+	//generate button
+	let generate_button = document.createElement("button");
+	generate_button.innerHTML = "Generate";
+	
 	body_parts_div.appendChild(body_parts_label);
 	
 	body_parts_div.appendChild(body_parts_label);
 	body_parts_div.appendChild(body_parts_dropdown);
+	
+	body_parts_div.appendChild(generate_button);
 	
 	content.appendChild(body_parts_div);
 }
